@@ -1,0 +1,28 @@
+//**
+// This is a summary
+//
+// This is a description
+//
+// @param  {TEXT} $1  Param Description of Param 
+// @return {BOOLEAN} $0  Description of Param
+//
+// @package DOCS
+// @copyright 2014 iVantage Health Analytics, Inc.
+//*
+C_TEXT($1;$baseID)
+C_LONGINT($0;$result)
+
+// -----------------------------------------------------
+// A normal 4D Comment, no docblock
+// -----------------------------------------------------
+$baseID:=$1
+
+// @param  {TEXT} $1 someParam a description
+C_TEXT(someProcessVar)
+
+
+QUERY([Scorecard_Indexes];[Scorecard_Indexes]BaseID=$baseID)
+ORDER BY([Scorecard_Indexes]SHashVersion;<)
+$result:=[Scorecard_Indexes]SHashVersion
+
+$0:=$result

@@ -1,0 +1,11 @@
+{
+  "name": "4d-to-DocBlock",
+  "version": "0.0.0",
+  "description": "Converts 4d comments in 4D-DocBlock to DocBlock format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Alex Middeleer",
+  "license": "iVantage"
+}
