@@ -8,4 +8,6 @@ Usage:
    resultArray = mod.convertLines(text);
 ```
 
+Testing by executing the command `mocha` (`npm install -g mocha`).
+
 Contact iVantage Health Analytics Inc. for terms of License.
