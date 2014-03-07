@@ -5,7 +5,7 @@ Usage:
 
 ``` js
    result = mod.convert(text);
-	 resultArray = mod.convertLines(text);
+   resultArray = mod.convertLines(text);
 ```
 
 Contact iVantage Health Analytics Inc. for terms of License.
